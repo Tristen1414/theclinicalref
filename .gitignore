@@ -1,0 +1,8 @@
+.env
+.env.local
+.env.production
+backend/.env
+*.env
+__pycache__/
+*.pyc
+*.pyo
