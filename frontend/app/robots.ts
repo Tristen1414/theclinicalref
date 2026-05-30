@@ -1,12 +1,10 @@
-import { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
+
+const BASE_URL = "https://theclinicalref.com";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-      disallow: '/admin/',
-    },
-    sitemap: 'https://theclinicalref.com/sitemap.xml',
-  }
+    rules: { userAgent: "*", allow: "/", disallow: "/api/" },
+    sitemap: `${BASE_URL}/sitemap.xml`,
+  };
 }

@@ -70,12 +70,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <div className="text-xs font-medium text-gray-700 dark:text-gray-300 mb-2 uppercase tracking-widest">More</div>
               <div className="flex flex-col gap-1.5">
-                <Link href="/radio" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Radio & dispatch</Link>
+                <Link href="/radio" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Radio &amp; dispatch</Link>
                 <Link href="/fire" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Fire terminology</Link>
-                <Link href="/hazmat" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Hazmat & CBRN</Link>
+                <Link href="/hazmat" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Hazmat &amp; CBRN</Link>
                 <Link href="/mnemonics" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Mnemonics</Link>
                 <Link href="/translation" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Translation</Link>
                 <Link href="/about" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">About</Link>
+                <Link href="/contact" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Contact</Link>
                 <Link href="/privacy" className="text-xs text-gray-500 dark:text-gray-400 hover:text-red-700 dark:hover:text-red-400">Privacy</Link>
               </div>
             </div>

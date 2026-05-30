@@ -4,18 +4,18 @@ import FAQ from '@/components/FAQ'
 import HeroSearch from '@/components/HeroSearch'
 
 const tools = [
-  { href: '/acronyms', img: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80', title: 'Acronyms & abbreviations', desc: 'EMS, clinical, fire, and hospital terminology lookup with context and usage examples.' },
-  { href: '/medmath', img: 'https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=600&q=80', title: 'Med math', desc: 'Drip rates, weight-based dosing, unit conversions, GCS, APGAR, and more.' },
-  { href: '/pharmacology', img: 'https://images.unsplash.com/photo-1550831107-1553da8c8464?w=600&q=80', title: 'Pharmacology', desc: 'Drug classes, mechanisms of action, prehospital indications and contraindications.' },
-  { href: '/prescriptions', img: 'https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=600&q=80', title: 'Prescription reference', desc: 'Brand to generic lookup — understand what your patients medications mean on scene.' },
-  { href: '/pathology', img: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&q=80', title: 'Diseases & pathology', desc: 'Condition reference covering pathophysiology, signs, symptoms, EMS and hospital treatment.' },
-  { href: '/anatomy', img: 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&q=80', title: 'Anatomy & body systems', desc: 'Interactive body map with clickable organs, skeletal, circulatory, and muscular layers.' },
-  { href: '/terminology', img: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=600&q=80', title: 'Medical terminology', desc: 'Prefix, root, and suffix breakdown for medical terms — build your vocabulary.' },
-  { href: '/radio', img: 'https://images.unsplash.com/photo-1599493758267-c6c884c7071f?w=600&q=80', title: 'Radio & dispatch', desc: '10-codes, signal codes, hospital patching protocols, and dispatch terminology.' },
-  { href: '/fire', img: 'https://images.unsplash.com/photo-1587502537745-84b86da1204f?w=600&q=80', title: 'Fire terminology', desc: 'ICS structure, structural and wildland terms, suppression tactics and operations.' },
-  { href: '/hazmat', img: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80', title: 'Hazmat & CBRN', desc: 'ERG data, SDS lookup, isolation distances, decon procedures, and agent identification.' },
-  { href: '/mnemonics', img: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80', title: 'Protocol mnemonics', desc: 'SAMPLE, DCAP-BTLS, AEIOU-TIPS, and all major assessment mnemonics explained.' },
-  { href: '/translation', img: 'https://images.unsplash.com/photo-1493612276216-ee3925520721?w=600&q=80', title: 'Language translation', desc: 'Live translation in 18 languages with curated Spanish phrase library and phonetics.' },
+  { href: '/acronyms', img: '/images/acronyms.jpg', title: 'Acronyms & abbreviations', desc: 'EMS, clinical, fire, and hospital terminology lookup with context and usage examples.' },
+  { href: '/medmath', img: '/images/medmath.jpg', title: 'Med math', desc: 'Drip rates, weight-based dosing, unit conversions, GCS, APGAR, and more.' },
+  { href: '/pharmacology', img: '/images/pharmacology.jpg', title: 'Pharmacology', desc: 'Drug classes, mechanisms of action, prehospital indications and contraindications.' },
+  { href: '/prescriptions', img: '/images/prescriptions.jpg', title: 'Prescription reference', desc: 'Brand to generic lookup — understand what your patients medications mean on scene.' },
+  { href: '/pathology', img: '/images/pathology.jpg', title: 'Diseases & pathology', desc: 'Condition reference covering pathophysiology, signs, symptoms, EMS and hospital treatment.' },
+  { href: '/anatomy', img: '/images/anatomy.jpg', title: 'Anatomy & body systems', desc: 'Interactive body map with clickable organs, skeletal, circulatory, and muscular layers.' },
+  { href: '/terminology', img: '/images/terminology.jpg', title: 'Medical terminology', desc: 'Prefix, root, and suffix breakdown for medical terms — build your vocabulary.' },
+  { href: '/radio', img: '/images/radio.jpg', title: 'Radio & dispatch', desc: '10-codes, signal codes, hospital patching protocols, and dispatch terminology.' },
+  { href: '/fire', img: '/images/fire.jpg', title: 'Fire terminology', desc: 'ICS structure, structural and wildland terms, suppression tactics and operations.' },
+  { href: '/hazmat', img: '/images/hazmat.jpg', title: 'Hazmat & CBRN', desc: 'ERG data, SDS lookup, isolation distances, decon procedures, and agent identification.' },
+  { href: '/mnemonics', img: '/images/mnemonics.jpg', title: 'Protocol mnemonics', desc: 'SAMPLE, DCAP-BTLS, AEIOU-TIPS, and all major assessment mnemonics explained.' },
+  { href: '/translation', img: '/images/translation.jpg', title: 'Language translation', desc: 'Live translation in 18 languages with curated Spanish phrase library and phonetics.' },
 ]
 
 export default function Home() {
